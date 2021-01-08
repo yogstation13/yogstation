@@ -69,6 +69,10 @@
 			if((S.self_operable || user != src) && (user.a_intent == INTENT_HELP || user.a_intent == INTENT_DISARM))
 				if(S.next_step(user,user.a_intent))
 					return 1
+
+	if((I.item_flags & SURGICAL_TOOL) && (user.a_intent != INTENT_HARM))
+		return TRUE
+
 	return ..()
 
 /mob/living/carbon/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
