@@ -523,7 +523,7 @@
 	description = "Better than Efficiency V."
 	prereq_ids = list("engineering", "basic_plasma")
 	design_ids = list("drill", "superresonator", "ore_redemption", "mining_equipment_vendor", "cargoexpress", "plasmacutter")//e a r l y    g a  m e)
-	research_costs = list(TECHWEB_POINT_TYPE_MINING = 1250)
+	research_costs = list(TECHWEB_POINT_TYPE_MINING = 750)
 	export_price = 5000
 
 /datum/techweb_node/adv_mining
@@ -532,7 +532,7 @@
 	description = "Efficiency Level 127"	//dumb mc references
 	prereq_ids = list("basic_mining", "adv_engi", "adv_power", "adv_plasma")
 	design_ids = list("drill_diamond", "jackhammer", "plasmacutter_adv", "borg_upgrade_plasmacutter")
-	research_costs = list(TECHWEB_POINT_TYPE_MINING = 4000)
+	research_costs = list(TECHWEB_POINT_TYPE_MINING = 2500)
 	export_price = 5000
 
 /datum/techweb_node/mining_mods
@@ -541,7 +541,7 @@
 	description = "Efficency Level Up"
 	prereq_ids = list("basic_mining")
 	design_ids = list("triggermod", "damagemod", "cooldownmod", "rangemod", "hypermod")
-	research_costs = list(TECHWEB_POINT_TYPE_MINING = 1500)
+	research_costs = list(TECHWEB_POINT_TYPE_MINING = 1000)
 	export_price = 5000
 
 /datum/techweb_node/camera_theory

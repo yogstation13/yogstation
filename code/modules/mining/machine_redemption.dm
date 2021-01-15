@@ -65,6 +65,7 @@
 
 	if(O && O.refined_type)
 		points += O.points * point_upgrade * O.amount
+		SSresearch.science_tech.add_point_list(list(TECHWEB_POINT_TYPE_MINING = O.points * point_upgrade * O.amount))
 
 	var/material_amount = mat_container.get_item_material_amount(O)
 
@@ -255,7 +256,6 @@
 			if(points)
 				if(I)
 					I.mining_points += points
-					SSresearch.science_tech.add_point_list(list(TECHWEB_POINT_TYPE_MINING = round(points/2)))
 					points = 0
 				else
 					to_chat(usr, "<span class='warning'>No valid ID detected.</span>")
