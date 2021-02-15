@@ -1,68 +1,166 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/obj/structure/fluff/bus/dense{
-	icon_state = "hoodbottom"
+"ah" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "bottomdoor";
+	layer = 3
 	},
-/turf/open/space/basic,
-/area/space)
-"f" = (
-/obj/structure/fluff/bus/passable/seat,
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"aM" = (
+/obj/structure/fluff/bus/passable,
 /turf/open/floor/plasteel/dark{
 	icon_regular_floor = "bus";
 	icon_state = "bus"
 	},
-/area/space)
-"h" = (
-/obj/structure/fluff/bus/dense{
-	icon_state = "reartire"
-	},
+/area/shuttle/escape)
+"aU" = (
 /turf/open/space/basic,
 /area/space)
-"i" = (
+"aZ" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottom"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"cq" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/space/basic,
+/area/shuttle/escape)
+"cY" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Emergency Shuttle Cockpit";
+	req_access_txt = "19"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"ds" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"ek" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "topdoor"
+	},
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"eP" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/space/basic,
+/area/shuttle/escape)
+"fb" = (
+/obj/structure/fluff/bus/passable,
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"gB" = (
 /obj/structure/fluff/bus/dense{
 	icon_state = "hoodtop"
 	},
 /turf/open/space/basic,
-/area/space)
-"n" = (
-/obj/structure/fluff/bus/passable/seat/driver,
+/area/shuttle/escape)
+"gS" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"hy" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "wheredahoodat"
+	},
+/obj/machinery/door/airlock/public/glass{
+	name = "Emergency Shuttle Cockpit";
+	req_access_txt = "19"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark{
 	icon_regular_floor = "bus";
 	icon_state = "bus"
 	},
-/area/space)
-"t" = (
+/area/shuttle/escape)
+"il" = (
 /obj/structure/fluff/bus/passable{
-	icon_state = "wheredahoodat"
+	icon_state = "topdoor"
 	},
-/turf/open/space/basic,
-/area/space)
-"u" = (
-/obj/structure/fluff/bus/passable,
-/turf/open/space/basic,
-/area/space)
-"y" = (
+/obj/structure/railing,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"iB" = (
+/obj/structure/fluff/bus/passable/seat/driver{
+	pixel_x = 23
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"iQ" = (
+/obj/structure/table,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"jw" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"lk" = (
 /obj/structure/fluff/bus/dense{
-	icon_state = "fronttire"
+	icon_state = "hoodtop";
+	layer = 3.3
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
 	},
 /turf/open/space/basic,
-/area/space)
-"B" = (
-/turf/closed/wall,
-/area/space)
-"J" = (
-/obj/structure/fluff/bus/dense{
-	icon_state = "frontwallbottom"
+/area/shuttle/escape)
+"lJ" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8
 	},
+/obj/structure/fluff/bus/dense,
 /turf/open/space/basic,
-/area/space)
-"N" = (
-/obj/structure/fluff/bus/dense{
-	icon_state = "frontwallbottomrear"
-	},
-/turf/open/space/basic,
-/area/space)
-"Q" = (
+/area/shuttle/escape)
+"mQ" = (
 /obj/structure/fluff/bus/passable{
 	icon_state = "topdoor"
 	},
@@ -70,701 +168,1074 @@
 	icon_regular_floor = "bus";
 	icon_state = "bus"
 	},
-/area/space)
-"R" = (
-/obj/structure/fluff/bus/passable,
-/turf/open/floor/plasteel/dark{
-	icon_regular_floor = "bus";
-	icon_state = "bus"
-	},
-/area/space)
-"S" = (
+/area/shuttle/escape)
+"nh" = (
 /obj/structure/fluff/bus/dense,
 /turf/open/space/basic,
-/area/space)
-"T" = (
+/area/shuttle/escape)
+"nz" = (
 /obj/structure/fluff/bus/passable{
 	icon_state = "bottomdoor";
 	layer = 3
 	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"oj" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"oM" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottom"
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"qg" = (
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"rw" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Emergency Shuttle Infirmary"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"tG" = (
+/obj/structure/fluff/bus/dense,
+/obj/machinery/flasher{
+	id = "shuttle_flasher";
+	pixel_x = -24;
+	pixel_y = 6
+	},
+/obj/machinery/button/flasher{
+	id = "shuttle_flasher";
+	pixel_x = -24;
+	pixel_y = -6
+	},
 /turf/open/space/basic,
-/area/space)
-"U" = (
+/area/shuttle/escape)
+"ul" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "reartire"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"up" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottomrear"
+	},
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"vd" = (
+/obj/structure/fluff/bus/passable/seat,
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"xf" = (
+/obj/structure/window/plasma/reinforced,
 /turf/open/space/basic,
-/area/space)
+/area/shuttle/escape)
+"yc" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/obj/structure/railing,
+/obj/structure/fluff/bus/passable{
+	icon_state = "topdoor"
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"yX" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "hoodbottom"
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"zc" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "wheredahoodat"
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"zB" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/space/basic,
+/area/shuttle/escape)
+"zC" = (
+/obj/structure/fluff/bus/passable,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"AN" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "fronttire"
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"Bl" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "bottomdoor";
+	layer = 3
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"BE" = (
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"BH" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottom"
+	},
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"BT" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"Eh" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"GA" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"GE" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "wheredahoodat"
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 8
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"Ht" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Emergency Shuttle Brig";
+	req_access_txt = "2"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Ja" = (
+/obj/structure/fluff/bus/passable/seat,
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Jj" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "reartire"
+	},
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"Le" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottomrear"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"Lv" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "hoodbottom"
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"LA" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"LW" = (
+/obj/structure/fluff/bus/passable,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"LY" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Emergency Shuttle Airlock";
+	req_access_txt = "2"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"Mo" = (
+/obj/machinery/computer/emergency_shuttle{
+	dir = 8;
+	layer = 3;
+	pixel_x = 8;
+	pixel_y = 13
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Nd" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"Oc" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Emergency Shuttle Airlock"
+	},
+/obj/docking_port/mobile/emergency{
+	name = "Box emergency shuttle"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Of" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottomrear"
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Pd" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "reartire"
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Py" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Emergency Shuttle Infirmary"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Qm" = (
+/obj/structure/fluff/bus/passable,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"QN" = (
+/obj/structure/fluff/bus/passable,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"SO" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/shuttle/escape)
+"TL" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "bottomdoor";
+	layer = 3
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"Vw" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Emergency Shuttle Brig";
+	req_access_txt = "2"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	icon_regular_floor = "bus";
+	icon_state = "bus"
+	},
+/area/shuttle/escape)
+"WU" = (
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"Xc" = (
+/obj/structure/fluff/bus/passable,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"Xl" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "fronttire"
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/space/basic,
+/area/shuttle/escape)
+"Yq" = (
+/obj/structure/fluff/bus/passable,
+/turf/open/space/basic,
+/area/shuttle/escape)
 
 (1,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+LA
+LA
+eP
+LY
+zB
+Oc
+gS
+LA
+LA
+LA
+LA
+LA
+LA
+LA
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (2,1,1) = {"
-U
-U
-U
-U
-U
-B
-B
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+nh
+qg
+ek
+ah
+Vw
+BE
+BE
+mQ
+Bl
+BE
+Py
+WU
+il
+nz
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (3,1,1) = {"
-U
-U
-U
-U
-S
-f
-R
-N
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+nh
+vd
+fb
+up
+Nd
+nh
+oj
+LW
+Of
+Nd
+nh
+GA
+QN
+aZ
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (4,1,1) = {"
-U
-U
-U
-U
-S
-f
-R
-J
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+tG
+vd
+fb
+BH
+aU
+nh
+Ja
+aM
+oM
+aU
+nh
+BT
+zC
+aZ
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (5,1,1) = {"
-U
-U
-U
-U
-S
-f
-u
-h
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+nh
+vd
+fb
+Jj
+aU
+nh
+Ja
+Yq
+Pd
+aU
+nh
+WU
+zC
+ul
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (6,1,1) = {"
-U
-U
-U
-U
-S
-f
-R
-N
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+tG
+vd
+fb
+up
+aU
+nh
+Ja
+aM
+Of
+aU
+nh
+iQ
+zC
+Le
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (7,1,1) = {"
-U
-U
-U
-U
-S
-f
-R
-J
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+nh
+vd
+fb
+BH
+aU
+nh
+Ja
+aM
+oM
+aU
+nh
+WU
+zC
+aZ
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (8,1,1) = {"
-U
-U
-U
-U
-S
-f
-R
-J
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+nh
+vd
+fb
+BH
+aU
+nh
+Ja
+aM
+oM
+aU
+nh
+BT
+zC
+aZ
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (9,1,1) = {"
-U
-U
-U
-U
-S
-f
-R
-J
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+tG
+vd
+fb
+BH
+LA
+nh
+jw
+Qm
+oM
+LA
+nh
+ds
+Xc
+aZ
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (10,1,1) = {"
-U
-U
-U
-U
-S
-n
-Q
-T
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+nh
+qg
+ek
+ah
+Ht
+BE
+BE
+mQ
+Bl
+BE
+rw
+WU
+il
+nz
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (11,1,1) = {"
-U
-U
-U
-U
-t
-i
-a
-y
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+zc
+gB
+Lv
+AN
+cq
+hy
+lk
+Lv
+Xl
+cY
+GE
+gB
+yX
+AN
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (12,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+xf
+BE
+SO
+LA
+eP
+BE
+Eh
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (13,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+xf
+BE
+BE
+BE
+BE
+BE
+Eh
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (14,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+lJ
+iB
+LW
+oM
+Nd
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (15,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+nh
+Mo
+yc
+TL
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (16,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+zc
+gB
+yX
+AN
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (17,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (18,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (19,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (20,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (21,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (22,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (23,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (24,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
 (25,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 "}
