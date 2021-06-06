@@ -46,6 +46,7 @@
 	. = ..()
 
 /mob/living/simple_animal/hostile/darkspawn_progenitor/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	var/image/I = image(icon = 'yogstation/icons/mob/mob.dmi' , icon_state = "smol_progenitor", loc = src)
 	I.override = 1

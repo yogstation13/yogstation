@@ -112,6 +112,7 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 			registered_z = null
 
 /mob/dead/Login()
+	if(!client?.MBAN_client_valid) return
 	. = ..()
 	var/turf/T = get_turf(src)
 	if (isturf(T))

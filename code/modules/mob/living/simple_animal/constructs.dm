@@ -63,6 +63,7 @@
 		CR.button.moved = "6:[pos],4:-2"
 
 /mob/living/simple_animal/hostile/construct/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	to_chat(src, playstyle_string)
 

@@ -182,6 +182,7 @@ GLOBAL_LIST_EMPTY(blob_nodes)
 	return ..()
 
 /mob/camera/blob/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	to_chat(src, "<span class='notice'>You are the overmind!</span>")
 	blob_help()

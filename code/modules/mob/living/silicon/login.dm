@@ -1,4 +1,5 @@
 /mob/living/silicon/Login()
+	if(!client?.MBAN_client_valid) return
 	if(mind && SSticker.mode)
 		SSticker.mode.remove_cultist(mind, 0, 0)
 		var/datum/antagonist/rev/rev = mind.has_antag_datum(/datum/antagonist/rev)

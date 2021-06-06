@@ -70,6 +70,7 @@
 			humanize_spider(ghost)
 
 /mob/living/simple_animal/hostile/poison/giant_spider/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	if(directive)
 		to_chat(src, "<span class='spider'>Your mother left you a directive! Follow it at all costs.</span>")
@@ -495,6 +496,7 @@
 	S.directive = stripped_input(S, "Enter the new directive", "Create directive", "[S.directive]")
 
 /mob/living/simple_animal/hostile/poison/giant_spider/Login()
+	if(!client?.MBAN_client_valid) return
 	. = ..()
 	GLOB.spidermobs[src] = TRUE
 

@@ -276,6 +276,8 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 	return QDEL_HINT_HARDDEL_NOW
 
 /client/New(TopicData)
+	MBAN_HOOK_CLIENT_NEW
+
 	var/tdata = TopicData //save this for later use
 	//this is a scam, so sometimes the topicdata is set to /?key=value instead of key=value, this is a hack around that
 	if(copytext(tdata, 1, 3) == "/?")
@@ -566,6 +568,7 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 //////////////
 
 /client/Del()
+	if(!MBAN_client_valid) return
 	//if(credits)
 		//QDEL_LIST(credits)
 	log_access("Logout: [key_name(src)]")

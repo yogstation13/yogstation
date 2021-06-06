@@ -38,6 +38,7 @@
 	return TRUE
 
 /mob/camera/yalp_elor/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	to_chat(src, "<B>You must protect your followers from Nanotrasen!</B>")
 	to_chat(src, "<B>Only your followers can hear you, and you can speak to send messages to all of them, wherever they are. You can also locally whisper to anyone.</B>")

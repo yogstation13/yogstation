@@ -133,6 +133,7 @@
 	return ..()
 
 /mob/living/simple_animal/drone/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	check_laws()
 

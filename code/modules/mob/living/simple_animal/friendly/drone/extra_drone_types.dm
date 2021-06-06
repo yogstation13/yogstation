@@ -37,6 +37,7 @@
 	hidden_uplink.telecrystals = 10
 
 /mob/living/simple_animal/drone/syndrone/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	to_chat(src, "<span class='notice'>You can kill and eat other drones to increase your health!</span>" )
 
@@ -157,6 +158,7 @@
 	..()
 
 /mob/living/simple_animal/drone/cogscarab/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	add_servant_of_ratvar(src, TRUE, GLOB.servants_active)
 	to_chat(src,"<b>You yourself are one of these servants, and will be able to utilize almost anything they can[GLOB.ratvar_awakens ? "":", <i>excluding a clockwork slab</i>"].</b>") // this can't go with flavortext because i'm assuming it requires them to be ratvar'd

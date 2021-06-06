@@ -137,6 +137,7 @@
 	ranged_cooldown = world.time + ranged_cooldown_time
 
 /mob/living/simple_animal/hostile/venus_human_trap/Login()
+	if(!client?.MBAN_client_valid) return
 	. = ..()
 	to_chat(src, "<span class='boldwarning'>You are a venus human trap! Protect the kudzu at all costs, and feast on those who oppose you!</span>")
 

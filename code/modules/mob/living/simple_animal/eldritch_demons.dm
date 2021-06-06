@@ -65,6 +65,7 @@
 	link_mob(src)
 
 /mob/living/simple_animal/hostile/eldritch/raw_prophet/Login()
+	if(!client?.MBAN_client_valid) return
 	. = ..()
 	client?.view_size.setTo(10)
 

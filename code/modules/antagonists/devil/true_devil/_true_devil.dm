@@ -51,6 +51,7 @@
 	real_name = name
 
 /mob/living/carbon/true_devil/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	var/datum/antagonist/devil/devilinfo = mind.has_antag_datum(/datum/antagonist/devil)
 	devilinfo.greet()

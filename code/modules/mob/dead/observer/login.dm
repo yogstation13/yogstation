@@ -1,4 +1,5 @@
 /mob/dead/observer/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 
 	ghost_accs = client.prefs.ghost_accs

@@ -4,15 +4,18 @@
 	var/atom/demo_last_loc
 
 /mob/Login()
+	if(!client?.MBAN_client_valid) return
 	. = ..()
 	SSdemo.write_event_line("setmob [client.ckey] \ref[src]")
 
 /client/New()
-	SSdemo.write_event_line("login [ckey]")
 	. = ..()
+	if(!MBAN_client_valid) return
+	SSdemo.write_event_line("login [ckey]")
 
 /client/Del()
 	. = ..()
+	if(!MBAN_client_valid) return
 	SSdemo.write_event_line("logout [ckey]")
 
 /turf/setDir()

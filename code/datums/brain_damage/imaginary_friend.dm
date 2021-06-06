@@ -75,6 +75,7 @@
 	var/datum/action/innate/imaginary_hide/hide
 
 /mob/camera/imaginary_friend/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	greet()
 	Show()

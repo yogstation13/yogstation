@@ -22,6 +22,7 @@
   * * send signal COMSIG_MOB_CLIENT_LOGIN
   */
 /mob/Login()
+	if(!client?.MBAN_client_valid) return
 	if(!client)
 		return FALSE
 	GLOB.player_list |= src

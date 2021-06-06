@@ -1,4 +1,5 @@
 /mob/living/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	//Mind updates
 	sync_mind()

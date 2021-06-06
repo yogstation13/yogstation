@@ -157,6 +157,7 @@
 	return TRUE
 
 /mob/living/silicon/pai/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	usr << browse_rsc('html/paigrid.png')			// Go ahead and cache the interface resources as early as possible
 	if(client)

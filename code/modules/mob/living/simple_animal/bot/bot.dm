@@ -957,6 +957,7 @@ Pass a positive integer as an argument to override a bot's default speed.
 		ejectpai(user)
 
 /mob/living/simple_animal/bot/Login()
+	if(!client?.MBAN_client_valid) return
 	. = ..()
 	access_card.access += player_access
 	diag_hud_set_botmode()

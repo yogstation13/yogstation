@@ -1,4 +1,5 @@
 /mob/living/silicon/ai/Login()
+	if(!client?.MBAN_client_valid) return
 	..()
 	if(stat != DEAD)
 		for(var/each in GLOB.ai_status_displays) //change status
