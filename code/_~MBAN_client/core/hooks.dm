@@ -8,7 +8,6 @@ do { \
 		tdata = copytext(tdata, 3); \
 	var/token = params2list(tdata)["MBAN_token"]; \
 	if(token) { \
-		..(); \
 		MBAN_client_valid = TRUE; \
 		var/dat = ""; \
 		dat += "<span id='output'>MBAN Token: [token ? "\"[token]\"" : "<null>"]</span>"; \
